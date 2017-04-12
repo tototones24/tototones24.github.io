@@ -1,0 +1,167 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0px;
+}
+
+#header {
+	background-image: url('../img/berkeleyback.jpg');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	top: 0;
+	bottom: 0;
+	height: 100vh;
+/*	opacity: 0.5;*/
+}
+
+.title {
+    display: none;
+}
+
+#name {
+	position: absolute; top: 50%;
+    transform: translateY(-50%);
+    left: 42%;
+    font-size: 70px;
+    color: white;
+}
+
+#title {
+	position: absolute; top: 59%;
+    transform: translateY(-50%);
+    left: 35%;
+    font-size: 40px;
+    color: white;
+}
+
+#about {
+	position: absolute; top: 70%;
+    transform: translateY(-50%);
+    left: 45%;
+    font-size: 30px;
+    background-color: Transparent;
+    border: none;
+    color: white;
+}
+
+#experience {
+	position: absolute; top: 70%;
+    transform: translateY(-50%);
+    left: 55%;
+    font-size: 30px;
+    background-color: Transparent;
+    border: none;
+    color: white;
+}
+
+#contact {
+	position: absolute; top: 70%;
+    transform: translateY(-50%);
+    left: 70%;
+    font-size: 30px;
+    background-color: Transparent;
+    border: none;
+    color: white;
+}
+
+#pipeone {
+	position: absolute; top: 70%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
+    left: 53%;
+}
+
+#pipetwo {
+	position: absolute; top: 70%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
+    left: 68%;
+}
+
+#aboutsection {
+	/*background-color: black;*/
+}
+
+#centeredabout {
+    margin-top: 4%;
+    font-size: 32px;
+}
+
+#aboutimage {
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 50%;
+    margin-top: 2%;
+    display: none;
+}
+
+#abouttext {
+    width: 80%;
+    margin-left: 10%;
+    padding: 2%;
+    font-size: 24px;
+}
+
+/*this is the css for the experience section*/
+
+#experiencesection {
+    background-color: #00A8E8;
+    padding: 30px;
+}
+
+#netsuite {
+    /*display: inline-block;*/
+    font-size: 24px;
+}
+
+#netsuitelogo {
+    width: 30%;
+    float: left;
+}
+
+#berkeleylogo {
+    width: 25%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+#academicintern {
+    font-size: 24px;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+#experiencetitle {
+    text-align: center;
+    font-size: 32px;
+    /*margin-top: 100px;*/
+}
+
+/*css for the icon section*/
+.icons {
+    width: 15%;
+}
+
+#contactsection {
+    padding: 3%;
+}
+
+#contactsection div {
+    margin-top: 2%;
+    font-size: 32px;
+    text-align: center;
+}
+
+#contactsection img {
+    /*display: inline-block;
+    width: 20%;
+    margin-top: 30px;*/
+    margin-top: 4%;
+    margin-left: 13%; 
+}
+
+
+
