@@ -142,26 +142,95 @@ body {
 
 /*css for the icon section*/
 .icons {
-    width: 15%;
+    width: 250px;
+    height: 250px;
 }
 
 #contactsection {
     padding: 3%;
 }
 
-#contactsection div {
+#firstdiv {
     margin-top: 2%;
     font-size: 32px;
     text-align: center;
 }
 
-#contactsection img {
-    /*display: inline-block;
+/*#contactsection img {
+    display: inline-block;
     width: 20%;
-    margin-top: 30px;*/
+    margin-top: 30px;
     margin-top: 4%;
     margin-left: 13%; 
 }
+*/
+
+#email {
+    /*float: left;*/
+    height: 250px;
+    width: 250px;
+    /*background-color: #81A4CD;*/
+    z-index: 99;
+    /*opacity: .2;*/
+}
+#github {
+    
+    height: 250px;
+    width: 250px;
+    /*background-color: #81A4CD;*/
+    z-index: 99;
+
+}
+#linkedin {
+    
+    height: 250px;
+    width: 250px;
+    /*background-color: #81A4CD;*/
+    z-index: 99;
+}
+
+.iconsimages {
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 8%;
+    z-index: 100;
+
+}
+
+#emaildescription {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 5%;
+    display: none;
+}   
+
+#githubdescription {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 5%;
+    display: none;
+}
+
+#linkedindescription {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 5%;
+    display: none;
+} 
 
 
+
+.greybackground {
+    background-color: black;
+}
+
+.forum_hover { background-color: #380606; }
+
+
+
+
+}
 
