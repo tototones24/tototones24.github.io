@@ -1,29 +1,25 @@
 $(document).ready(function(){
 	
-	// $("#about").click(function(){
-	// 	alert("heloo");
-	// });
 
 	$(".title").fadeIn(2500);
-
 
 
 	$("#about").click(function(){
 		$('html, body').animate({
 			scrollTop: $("#aboutsection").offset().top
-		}, 2000);
+		}, 1500);
 	});
 
 	$("#experience").click(function(){
 		$('html, body').animate({
 			scrollTop: $("#experiencesection").offset().top
-		}, 2000);
+		}, 1500);
 	});
 
 	$("#contact").click(function(){
 		$('html, body').animate({
 			scrollTop: $("#contactsection").offset().top
-		}, 2000);
+		}, 1500);
 	});
 
 
@@ -32,15 +28,9 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		if($(window).scrollTop() < topOfDiv) {
 			// alert("it's working");
-			$("#aboutimage").fadeIn(2000);
+			$("#aboutimage").fadeIn(1500);
 		};
 	});
-
-	// //this does not work
-	// $("#aboutimage").hover(function(){
-	// 	$("#aboutimage").animate({right: '300px'});
-	// });
-
 
 	//stuff for the contact section
 	$('#email').mouseover(function(){
@@ -71,6 +61,14 @@ $(document).ready(function(){
 		$("#linkedindescription").hide();
 		$("#linkedinimage").css("opacity", 1);
 	});
+
+
+	$("#arrowimage").click(function(){
+		$('html, body').animate({
+			scrollTop: $("#header").offset().top
+		}, 1000);
+	});
+
 
 
 });

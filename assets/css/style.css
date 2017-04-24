@@ -86,7 +86,7 @@ body {
 
 #centeredabout {
     margin-top: 4%;
-    font-size: 32px;
+    font-size: 40px;
 }
 
 #aboutimage {
@@ -102,12 +102,13 @@ body {
     margin-left: 10%;
     padding: 2%;
     font-size: 24px;
+    /*margin-top: 5px;*/
 }
 
 /*this is the css for the experience section*/
 
 #experiencesection {
-    background-color: #00A8E8;
+    background-color: #033860;
     padding: 30px;
 }
 
@@ -136,7 +137,7 @@ body {
 
 #experiencetitle {
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
     /*margin-top: 100px;*/
 }
 
@@ -152,7 +153,7 @@ body {
 
 #firstdiv {
     margin-top: 2%;
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -198,7 +199,7 @@ body {
 }
 
 #emaildescription {
-    font-size: 20px;
+    font-size: 28px;
     position: absolute;
     margin-top: 8%;
     margin-left: 5%;
@@ -206,21 +207,25 @@ body {
 }   
 
 #githubdescription {
-    font-size: 20px;
+    font-size: 28px;
     position: absolute;
     margin-top: 8%;
-    margin-left: 5%;
+    margin-left: 3.5%;
     display: none;
 }
 
 #linkedindescription {
-    font-size: 20px;
+    font-size: 28px;
     position: absolute;
     margin-top: 8%;
     margin-left: 5%;
     display: none;
 } 
 
+#arrowimage {
+    width: 5%;
+    margin-left: 95%;
+}
 
 
 .greybackground {
@@ -231,6 +236,35 @@ body {
 
 
 
+#experiencesection a {
+    text-decoration: none;
+    color: black;
+}
+
+#resume {
+    font-size: 28px;
+    background-color: #033860;
+}
+
+#resume div {
+    padding: 2%;
+    /*margin-bottom: 3%;*/
+}
+
+#resumepicture {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#boldhere:hover {
+    font-size: 30px;
+}
+
+#leftarrow {
+    width: 4%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
 
 }
 
